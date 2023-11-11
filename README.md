@@ -1,49 +1,132 @@
 # Laravel Important Hacks
 
-Welcome to the Laravel Important Hacks repository! This is a comprehensive collection of essential resources, code snippets, and logical implementations vital for developing with Laravel, the popular PHP framework. Whether you're just starting out or are an experienced developer, this repository is designed to enhance your Laravel projects and streamline your workflow.
+## Overview
+This repository is a curated collection for Laravel developers, featuring vital information, code examples, and essential logic. It serves as a resource-rich hub for best practices, problem-solving strategies, and advanced techniques in Laravel development.
 
-## Contents
+## Files and Their Purposes
 
-- [Core Laravel Concepts](#core-laravel-concepts)
-- [Code Snippets and Examples](#code-snippets-and-examples)
-- [Best Practices](#best-practices)
-- [Troubleshooting Common Issues](#troubleshooting-common-issues)
-- [Advanced Techniques](#advanced-techniques)
-- [Integration Strategies](#integration-strategies)
-- [Design Patterns Usage](#design-patterns-usage)
-- [Resourceful Insights and Tips](#resourceful-insights-and-tips)
+1. **AdvancedWhereQuery.php**  
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/AdvancedWhereQuery.php)  
+   Description: Advanced Where Query in Laravel
 
-### Core Laravel Concepts
-Detailed explanations and examples of fundamental Laravel concepts for a deeper understanding.
+2. **CommonDataForView.php**  
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/CommonDataForView.php)  
+   Description: Register any application services in AppServiceProvider.
 
-### Code Snippets and Examples
-A rich assortment of ready-to-use code snippets covering various aspects of Laravel development.
+3. **ComplexJoinDemo.php**  
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/ComplexJoinDemo.php)  
+   Description: Complex Join Query in Laravel
 
-### Best Practices
-Guidance on best practices in Laravel development to ensure code quality and maintainability.
+4. **DifferentControllerListing.php**  
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/DifferentControllerListing.php)  
+   Description: Controller Listing in Laravel
 
-### Troubleshooting Common Issues
-Solutions and workarounds for common problems encountered in Laravel projects.
+5. **DynamicModelAndController.php**  
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/DynamicModelAndController.php)  
+   Description: Dynamic Model and Call Object in Controller
 
-### Advanced Techniques
-Insights into advanced Laravel features and how to leverage them in projects.
+6. **DynamicTableController.php**  
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/DynamicTableController.php)  
+   Description: Dynamic Table Creation Controller
 
-### Integration Strategies
-Tips on integrating Laravel with other technologies and services.
+7. **ExampleQueryController.php**  
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/ExampleQueryController.php)  
+   Description: Closure Use Example in Laravel Query
 
-### Design Patterns Usage
-How to effectively implement design patterns in Laravel applications.
+8. **FileDownloadController.php**  
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/FileDownloadController.php)  
+   Description: File Download Controller
 
-### Resourceful Insights and Tips
-A collection of tips and tricks to enhance productivity and efficiency in Laravel development.
+9. **Laravel-8-Routing-Guideline.php**  
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/Laravel-8-Routing-Guideline.php)  
+   Description: This file explains new Laravel 8+ and traditional methods to define routes.
+
+10. LaravelMigrationErrorKeyLengthSolutionGuide.php
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/LaravelMigrationErrorKeyLengthSolutionGuide.php)  
+   Description: Solution for Syntax error or access violation.
+
+
+11. ListControllersActions.php
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/ListControllersActions.php)  
+   Description: Custom Middleware for Controller and Actions.
+
+12. MultipleConditionOnJoinController.php
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/MultipleConditionOnJoinController.php)  
+   Description: Multiple Conditions on Join Example.
+
+13. OrderByAssociateData.php
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/OrderByAssociateData.php)  
+   Description: Order By Associate Data.
+
+14. OrderByCurrentDatesController.php
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/OrderByCurrentDatesController.php)  
+   Description: Sorting Records by Current Date in Laravel.
+
+15. OrderByParentChildController.php
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/OrderByParentChildController.php)  
+   Description: Parent-Child Relationship Sorting in Laravel.
+
+16. OrderByRawController.php
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/OrderByRawController.php)  
+   Description: Custom OrderBy Using CASE Statement in Laravel.
+
+17. PizzaChangeMagicColumn.php
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/PizzaChangeMagicColumn.php)  
+   Description: Change CREATED_AT and UPDATED_AT Magic Column in MODEL.
+
+18. QueryLoggingController.php
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/QueryLoggingController.php)  
+   Description: This controller demonstrates how to enable query logging in Laravel.
+
+19. QueryResultTestController.php
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/QueryResultTestController.php)  
+   Description: TQuery Result Testing Controller.
+
+20. RearrangeArrayByKey.php
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/RearrangeArrayByKey.php)  
+   Description: Rearrange Array by Key in Laravel.
+
+21. ReferenceNumberFilteringController.php
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/ReferenceNumberFilteringController.php)  
+   Description: This controller demonstrates different methods for filtering data based on reference numbers.
+
+22. SMSService.php
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/SMSService.php)  
+   Description: This service class includes the sendSMS function for sending SMS messages using an external SMS gateway.
+
+23. SaveAttachementByFilenameController.php
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/SaveAttachementByFilenameController.php)  
+   Description: This controller demonstrates how to handle file uploads in Laravel.
+
+24. SortingVarcharNumberController.php
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/SortingVarcharNumberController.php)  
+   Description: Sorting Varchar Number Strings in Laravel
+
+25. UserResearchEntities.php
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/UserResearchEntities.php)  
+   Description: How to show data of other table for current auth user
+
+26. conditional-layout.blade.php
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/conditional-layout.blade.php.php)  
+   Description: Conditional Layout Extension in Blade
+
+27. display-all-error.blade.php
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/display-all-error.blade.php.php)  
+   Description: Add Blade template demonstrating two methods for displaying validation errors in Laravel: collectively and individually per field.
+
+28. loop-iteration.blade.php
+   [Download](https://github.com/zawad1992/laravel_important_hacks/blob/master/loop-iteration.blade.php.php)  
+   Description: This Blade template demonstrates the use of ->iteration for displaying serial numbers in a loop..
+
+
 
 ## Contributing
-We welcome contributions to this repository! If you have a hack, tip, or snippet that can help fellow Laravel developers, please feel free to submit a pull request.
+Contributions to this repository are welcome. Please submit a pull request or open an issue to suggest improvements.
 
 ## License
-[MIT License](LICENSE)
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgements
-Special thanks to all the contributors who have helped in building this valuable resource.
+Special thanks to all contributors who have helped build this valuable resource.
 
-Happy coding!
+Happy coding! 
