@@ -1,20 +1,23 @@
 <?php
 /**
- * Register any application services.
+ * Bootstrap any application services.
+ * 
+ * Placement Instructions:
+ * 1. Place this code in the `boot` method of your AppServiceProvider.
+ *    The AppServiceProvider is usually located in the 'app/Providers' directory of your Laravel application.
+ * 2. This code sets up view composers for 'layouts.admin' and 'layouts.blank' views. Adjust as necessary for your specific views.
+ * 3. Ensure the views and routes referenced in the composers exist in your application.
+ * 4. Modify user role and branch determination logic as per your application's requirements.
  *
- * This method in the service provider is used for setting up view composers for the 'admin' and 'blank' layouts.
- * View composers are callbacks or class methods that are called when a view is rendered. 
- *
- * For 'layouts.admin', the view composer:
+ * The 'layouts.admin' composer:
  * - Extracts the current controller and action.
- * - Determines the current user's role and branch (if applicable) and stores them in the session.
+ * - Determines the current user's role and branch, storing them in the session.
  * - Passes these details along with the current URL to the view.
  *
- * For 'layouts.blank', the view composer:
+ * The 'layouts.blank' composer:
  * - Only extracts and passes the current controller, action, and URL to the view.
- *
- * This setup enhances the views by providing them with contextual data about the current request and user.
  */
+
 public function boot()
 {
     // Composer for 'layouts.admin' view
