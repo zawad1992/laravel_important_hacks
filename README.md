@@ -90,7 +90,6 @@ This repository is a curated collection for Laravel developers, featuring vital 
    **Description:** This Blade template demonstrates the use of ->iteration for displaying serial numbers in a loop..
 
 
-
 ## Contributing
 Contributions to this repository are welcome. Please submit a pull request or open an issue to suggest improvements.
 
