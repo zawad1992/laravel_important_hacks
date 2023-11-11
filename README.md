@@ -94,7 +94,7 @@ This repository is a curated collection for Laravel developers, featuring vital 
 Contributions to this repository are welcome. Please submit a pull request or open an issue to suggest improvements.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/zawad1992/laravel_important_hacks/blob/master/LICENSE.md) file for details.
 
 ## Acknowledgements
 Special thanks to all contributors who have helped build this valuable resource.
